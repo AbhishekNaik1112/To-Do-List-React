@@ -56,6 +56,7 @@ class App extends Component {
           />
           <button>Add</button>
         </form>
+        <div>{this.state.input}</div>
         <ul>
           {this.state.todoList.length == 0 ? (
             <h1>Your List is Empty</h1>
